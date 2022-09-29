@@ -2,11 +2,11 @@
     font-family: Pacifico, cursive;
     width: 100%;
     color: #fdfdfd;
-    font-size: 5.0625em;
+    font-size: min(6vw, 5.0625em);
     text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
     align-items: center;
     position: absolute;
-    left: 60%;
+    left: 57%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
