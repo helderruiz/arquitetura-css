@@ -3,6 +3,26 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 5em;
-    margin-right: 5em;
-    width: calc(25% - 5em);
+    
+}
+
+@media screen and (min-width: 0) {
+    .receita {
+        margin-right: 1em;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita {
+        margin-right: 2.5em;
+        width: calc(33.33% - 2.5em);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receita {
+        margin-right: 5em;
+        width: calc(25% - 5em);
+    }
 }

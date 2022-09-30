@@ -1,4 +1,21 @@
 .banner__imagem {
-    height: calc(100vh - 72px);
+    /* shorthand */
+    background: url(../../img/banner.jpg) no-repeat center / cover;
+    /* background-image: url(../../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
     width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: calc(100vh - 72px);
+    }
 }
